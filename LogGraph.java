@@ -73,7 +73,7 @@ public class GraphLevel2 extends Application {
 
 
                         //The file ,size of which is to be saved into another file (a.txt)
-                        File file = new File(checkOS() + "test.txt");
+                        File file = new File(checkOS() + "a.txt");
                         float store = file.length();
                         store = store/1024 ;
 
@@ -82,9 +82,9 @@ public class GraphLevel2 extends Application {
                     *   One is the location of the file (b.txt) in which the log is to be written
                     *  And another is boolean. i.e; true meaning that is data in the file won't be overewritten.
                     */
-                        FileOutputStream out = new FileOutputStream(checkOS() + "SaveSize.txt", true);
+                        FileOutputStream out = new FileOutputStream(checkOS() + "b.txt", true);
                         Date date = new Date();
-                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss");
+                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss"); //To show time only and not the date
 
                         //The lines below prints the length of file in kb on screen and the time on screen
                         System.out.println("File length: " + store + " KB" );
