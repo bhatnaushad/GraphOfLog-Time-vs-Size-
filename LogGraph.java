@@ -17,7 +17,7 @@ import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class GraphLevel2 extends Application {
+public class LogGraph extends Application {
 
     /**
      * This function checks the operating System type. This function is needed to make the program platform independent.
